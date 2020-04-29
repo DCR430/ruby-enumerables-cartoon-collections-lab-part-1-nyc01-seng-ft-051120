@@ -1,6 +1,7 @@
 def greet_characters(array)
-array.each{|array| print array,"Hello" }
-end
+array.each do |array|
+  puts " Hello #{array.capitalize}"
+ end
 
 
 def list_dwarves(array)
