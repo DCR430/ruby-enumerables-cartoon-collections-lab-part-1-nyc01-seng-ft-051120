@@ -5,7 +5,7 @@ array.each do |array|
 end
 
 def list_dwarves(array)
-  array.each_with_index {|item , index|
+  array.each_with_index {|item , index.shift|
     puts "#{index.shift}.#{item}" }
 end
 
